@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="a">
+  这里是a
+
+  <div class="c">
+    这里是c
+  </div>
+
+  <div class="b">
+  这里是b
+  </div>
+
+</div>
+
+</body>
+<script>
+  var a=document.getElementsByClassName('a')[0];
+  console.log(a);
+  var b=a.getElementsByClassName('b')[0];
+  console.log(b);
+  var c=document.querySelectorAll(".a.b");
+  console.log(c);
+
+</script>
+</html>
